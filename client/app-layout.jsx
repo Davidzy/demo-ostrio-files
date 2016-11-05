@@ -1,13 +1,13 @@
 import React from 'react';
 import UploadForm from './upload-form';
-import DisplayUploadedFiles from './display-uploaded-files';
+import AppContainer from './app-container';
 
 export default class AppLayout extends React.Component {
   render() {
     return (
       <div>
         <UploadForm />
-        <DisplayUploadedFiles />
+        <AppContainer />
       </div>
     )
   }
